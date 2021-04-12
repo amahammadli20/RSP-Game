@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Scissors and Paper</title>
+    <link href = "../css/reset.css" rel = "stylesheet">
+    <link href = "./advanced-rsp.css" rel = "stylesheet">
+</head>
+<body>
+    <div class = "game">
+        <section class = "score">
+            <div class = "player-score">
+                <h2>Player Score</h2>
+                <p>0</p>
+            </div>
+
+            <div class = "comp-score">
+                <h2>Computer Score</h2>
+                <p>0</p>
+            </div>
+        </section>
+
+        <section class = "middle-section">
+            <div>
+                <h1>Rock, Scissors and Paper</h1>
+                <button>Let's Play!</button>
+            </div>
+        </section>
+
+            <section class = "match fadeOut">
+
+                <h1 class = "choiceResult">Choose an Option</h1>
+                <div class = "hands">
+                    <img class = "player-hand" src = "./img-assets/rock.png">
+                    <img class = "computer-hand" src = "./img-assets/rock.png">
+                </div>
+
+                <div class = "options">
+                    <button class = "rock">Rock</button>
+                    <button class = "scissors">Scissors</button>
+                    <button class = "paper">Paper</button>
+                </div>
+            </section>
+    </div>
+    <script src = "rsp.js"></script>
+</body>
+</html>
